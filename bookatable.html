@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header whiteheader">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar">
+                    <a href="index.html" class="header__logo"><img src="img/Gratia-book_a_table logo.png" alt=""></a>
+                    <ul class="menu ">
+                        <li class="menu__item"><a href="#">About</a></li>
+                        <li class="menu__item"><a href="menu.html">Menu</a></li>
+                        <li class="menu__item"><a href="#">Gallery</a></li>
+                        <li class="menu__item"><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="mob__menu_buttom">
+                        <div class="mob__menu-line"></div>
+                        <div class="mob__menu-line"></div>
+                        <div class="mob__menu-line"></div>
+                        <div class="mob__menu-line"></div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+        <div class="section-title">
+                <h2>BOOK A TABLE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="book">
+        <div class="container">
+            <form action="" class="book__form row">
+                <input class = "day" name="day" type="text" placeholder="DD" required>                 
+                <input class = "month" type="text" placeholder="MM" required>                        
+                <input class = "year" type="text" placeholder="YYYY" required min=2018 max=2019>
+                <input class = "hour" type="text" placeholder="HOUR" required>
+                <input class = "people" type="text" placeholder="HUMBER OF PEOPLE" required min=1 max=20>
+                <input class = "name" type="text" placeholder="FIRST NAME AND LAST NAME" required >
+                <input class = "tel" type="tel" placeholder="PHONE NUMBER" required>
+                <input class = "email" type="email" placeholder="E-MAIL">
+                <select class ="preparemenu" name="preparemenu"  placeholder="PREPARE MENU">
+                    <option value="" disabled selected>PREPARE MENU</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lanch">Lanch</option>
+                    <option value="dinner">Dinner</option>
+                </select>
+                <textarea class ="message" name="text" id="" cols="30" rows="10" placeholder="YOR MESSAGE"></textarea>
+                <input class = "submit" type="submit" value="SEND">
+            </form>
+        </div>
+    </div>
+    <section class="bottom">
+            <div class="bottom__top">
+                <div class="bottom__line"></div>
+                <div class="bottom__around"><img src="img/Logo.png" alt=""></div>
+            </div>
+            <p class="bottom__text">Gratia Restaurant</p>
+            <div class="social">
+                <a href="#" class="social__item"><i class="fab fa-facebook 2x"></i></a>
+                <a href="#" class="social__item"><i class="fab fa-twitter-square 2x"></i></a>
+                <a href="#" class="social__item"><i class="fab fa-instagram 2x"></i></a>
+            </div>
+        </section>
+    <script src="js/mobMenu.js"></script>
+</body>
+</html>
